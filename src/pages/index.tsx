@@ -26,7 +26,7 @@ export default function Home() {
   const classes = useStyles();
   const [open, setOpen] = useState(true);
 
-  const handleClose = (event, reason) => {
+  const handleClose = (reason) => {
     if (reason === 'clickaway') {
       return;
     }
@@ -53,7 +53,7 @@ export default function Home() {
         <Alert onClose={handleClose} variant="filled" severity="warning" >
             Este site ainda está sendo desenvolvido!
         </Alert>
-      </Snackbar>     
+      </Snackbar>    
 
       </div>
       <br />
