@@ -47,7 +47,7 @@ export default function Home() {
 
       <Snackbar 
         open={open} 
-        autoHideDuration={6000} 
+        autoHideDuration={6000}
         onClose={handleClose}
       >
         <Alert onClose={handleClose} variant="filled" severity="warning" >
