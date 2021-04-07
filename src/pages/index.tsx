@@ -11,20 +11,6 @@ import styles from "../styles/pages/Home.module.css";
 import { CountdownProvider } from "../contexts/CountdownContext";
 import { ChallengesProvider } from "../contexts/ChallengesContext";
 
-import { useState } from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import Snackbar from "@material-ui/core/Snackbar";
-import Alert from "@material-ui/lab/Alert";
-
-const useStyles = makeStyles((theme) => ({
-  root: {
-    width: "100%",
-    "& > * + *": {
-      marginTop: theme.spacing(2),
-    },
-  },
-}));
-
 interface HomeProps {
   level: number;
   currentExperience: number;
@@ -32,17 +18,6 @@ interface HomeProps {
 }
 
 export default function Home(props: HomeProps) {
-  const classes = useStyles();
-  const [open, setOpen] = useState(true);
-
-  const handleClose = (reason) => {
-    if (reason === "clickaway") {
-      return;
-    }
-
-    setOpen(false);
-  };
-
   return (
     <ChallengesProvider
       level={props.level}
@@ -55,13 +30,6 @@ export default function Home(props: HomeProps) {
         </Head>
         <ExperienceBar />
         <br /> <br />
-        <div className={classes.root}>
-          <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
-            <Alert onClose={handleClose} variant="filled" severity="warning">
-              Este site ainda está sendo desenvolvido!
-            </Alert>
-          </Snackbar>
-        </div>
         <CountdownProvider>
           <section>
             <div>
