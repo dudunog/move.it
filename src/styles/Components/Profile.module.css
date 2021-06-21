@@ -27,3 +27,13 @@
 .profileContainer div p img {
   margin-right: 0.5rem;
 }
+
+/* ========== Dark Theme ========== */
+
+.profileContainer.dark div strong {
+  color: var(--white);
+}
+
+.profileContainer.dark div p {
+  color: var(--white);
+}

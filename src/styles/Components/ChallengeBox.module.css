@@ -108,3 +108,25 @@
 .challengeActive footer button:hover {
   filter: brightness(0.9);
 }
+
+/* ========== Dark Theme ========== */
+
+.challengeBoxContainer.dark {
+  background: var(--backgroundBoxes);
+}
+
+.challengeBoxContainer.dark .challengeActive strong {
+  color: var(--white);
+}
+
+.challengeBoxContainer.dark .challengeActive main {
+  color: var(--white);
+}
+
+.challengeBoxContainer.dark .challengeNotActive strong {
+  color: var(--white);
+}
+
+.challengeBoxContainer.dark .challengeNotActive {
+  color: var(--white);
+}

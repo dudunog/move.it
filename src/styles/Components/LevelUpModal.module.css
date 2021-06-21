@@ -49,3 +49,10 @@
   border: 0;
   font-size: 0px;
 }
+
+/* ========== Dark Theme ========== */
+
+.overlay.dark {
+  background: var(--backgroundDark);
+  opacity: 0.95;
+}
