@@ -27,3 +27,9 @@ span.currentExperience {
   top: 20px;
   transform: translateX(-50%);
 }
+
+/* ========== Dark Theme ========== */
+
+.experienceBar.dark span {
+  color: var(--white);
+}

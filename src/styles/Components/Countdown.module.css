@@ -12,9 +12,9 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-
-  background: var(--white);
   box-shadow: 0 0 60px rgba(0, 0, 0, 0.05);
+  background: var(--white);
+
   border-radius: 5px;
   font-size: 8.5rem;
   text-align: center;
@@ -77,4 +77,22 @@
   background: var(--white);
   color: var(--text);
   cursor: not-allowed;
+}
+
+/* ========== Dark Theme ========== */
+
+.countdownContainer.dark {
+  color: var(--white);
+}
+
+.countdownContainer.dark > div {
+  background: var(--backgroundBoxes);
+}
+
+.countdownContainer.dark > div span:first-child {
+  border-right-color: var(--backgroundDark);
+}
+
+.countdownContainer.dark > div span:last-child {
+  border-left-color: var(--backgroundDark);
 }

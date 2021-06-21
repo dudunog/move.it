@@ -17,3 +17,9 @@
 .CompletedChallengesContainer span:last-child {
   font-size: 1.5rem;
 }
+
+/* ========== Dark Theme ========== */
+
+.CompletedChallengesContainer.dark {
+  color: var(--white);
+}

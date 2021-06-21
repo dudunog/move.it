@@ -1,8 +1,10 @@
 import { useContext } from "react";
 import { CountdownContext } from "../contexts/CountdownContext";
+import { ThemeContext } from "../contexts/ThemeContext";
 import styles from "../styles/Components/Countdown.module.css";
 
 export function Countdown() {
+  const { theme } = useContext(ThemeContext);
   const {
     minutes,
     seconds,
@@ -17,7 +19,7 @@ export function Countdown() {
 
   return (
     <div>
-      <div className={styles.countdownContainer}>
+      <div className={`${styles.countdownContainer} ${styles[theme]}`}>
         <div>
           <span>{minuteLeft}</span>
           <span>{minuteRight}</span>
