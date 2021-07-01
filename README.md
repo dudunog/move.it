@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <img alt="Move.it" src="logo-full.svg" width="160px">
+  <img alt="Move.it" src="public/logo-full.svg" width="160px">
   <br>
 </h1>
 
