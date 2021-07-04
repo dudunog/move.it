@@ -937,7 +937,6 @@
     "vm-browserify" "1.1.2"
     "watchpack" "2.0.0-beta.13"
   optionalDependencies:
-<<<<<<< HEAD
     "sharp" "0.26.3"
 
 "node-fetch@2.6.1":
@@ -1923,7 +1922,6 @@ stacktrace-parser@0.1.10:
   integrity sha512-KJP1OCML99+8fhOHxwwzyWrlUuVX5GQ0ZpJTd1DFXhdkrvg1szxfHhawXUZ3g9TkXORQd4/WG68jMlQZ2p8wlg==
   dependencies:
     type-fest "^0.7.1"
->>>>>>> e39e5f4d30adaec29b193ce92e6ec68c2d9093e7
 
 "statuses@>= 1.5.0 < 2":
   "integrity" "sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow="
