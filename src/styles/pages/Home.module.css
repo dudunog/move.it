@@ -1,3 +1,13 @@
+.containerMain {
+  display: flex;
+  flex-flow: nowrap;
+}
+
+.main {
+  width: calc(100% - 122px);
+  transform: translateX(122px);
+}
+
 .container {
   min-height: 100vh;
   max-width: 992px;
