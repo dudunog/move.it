@@ -12,9 +12,7 @@
   </a>
 </p>
 
-Light theme
-
-<div align="center" style="display: flex;flex-wrap: nowrap;">
+<div align="center">
     <img alt="Move.it" title="Move.it" src="public/light-homepage-moveit.png" />
     <img alt="Move.it" title="Move.it" src="public/dark-homepage-moveit.png" />
 </div>
