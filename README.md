@@ -34,4 +34,4 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 1. Clone este repositório `git clone https://github.com/dudunog/move.it.git`
 2. Entre no diretório do projeto `cd move.it`
 3. Instale as dependências com `yarn install` ou `npm install`
-4. Inicie o projeto em modo desenvolvimento com `yarn dev`
+4. Inicie o projeto em modo desenvolvimento com `yarn run dev` ou `npm run dev`
